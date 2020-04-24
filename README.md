@@ -1,4 +1,4 @@
-# All4learnAngular
+# Han Tran Angular 5 base project structure
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
