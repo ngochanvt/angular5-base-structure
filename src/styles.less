@@ -1,1 +1,100 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
+@dark-green: #165c30;
+.nopadding{
+	padding: 0 !important;
+}
+.btn-green-o{
+	border: 2px solid @dark-green;
+}
+.btn-radius{
+	border-radius: 30px;
+}
+.a4l-topbar{
+	padding-left: 8%;
+	background: #fff;
+	z-index: 1;
+	.button-login{
+		display: flex;
+	}
+}
+.a4l-menu{
+	position: fixed;
+	top: 0;
+	height: 100vh;
+	width: 8%;
+	background: url("assets/images/bg-sidebar-desk.jpg");
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 0;
+    z-index: 2;
+ //    display: flex;
+	// align-items: flex-start;
+	.main-menu{
+		// align-self: center;
+	}
+    a.navbar-brand{
+    	width: 100px;
+    	img{
+    		width: 100%;
+    	}
+    }
+	ul.navbar-nav{
+		margin: 0;
+		li{
+			width: 100%;
+			padding: 10px 0;
+			text-align: center;
+			&.active{
+				background: url("assets/images/white-selection.png");
+				background-repeat: no-repeat;
+			    background-position: center center;
+			    background-size: 120px;
+			    padding: 50px 0;
+			    a{
+			    	color: green;
+			    	padding-right: 20px;
+			    }
+			}
+			a{
+				color: #fff;
+			}
+		}
+	}
+}
+.grp-icon{
+	.icon{
+		display: block;
+		width: 30px;
+		height: 30px;
+		margin: auto; 
+		background-position: center !important;
+		background-size: cover !important;
+		background-repeat: no-repeat !important;
+		&.icon-home-off{
+			background: url("assets/images/icon/home-off.png");
+		}
+		&.icon-home-on{
+			background: url("assets/images/icon/home-on.png");
+		}
+		&.icon-bookmark-off{
+			background: url("assets/images/icon/bookmark-off.png");
+		}
+		&.icon-bookmark-on{
+			background: url("assets/images/icon/bookmark-on.png");
+		}
+		&.icon-school-off{
+			background: url("assets/images/icon/school-off.png");
+		}
+		&.icon-school-on{
+			background: url("assets/images/icon/school-on.png");
+		}
+		&.icon-logged-in{
+			background: url("assets/images/logged_in_icon.png");
+		}
+	}
+}
+.main-content{
+	padding-left: 8%;
+	margin-top: 70px;
+}

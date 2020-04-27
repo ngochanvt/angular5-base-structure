@@ -8,6 +8,7 @@ import { CookieService } from 'ngx-cookie-service';
 import { Routing } from './routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './shared/layout/menu/menu.component';
+import { TopbarComponent } from './shared/layout/topbar/topbar.component';
 import { FooterComponent } from './shared/layout/footer/footer.component';
 import { AuthModule } from './modules/auth/auth.module';
 import { HomeModule } from './modules/home/home.module';
@@ -19,6 +20,7 @@ import { AuthService } from './modules/auth/auth.service';
   declarations: [
     AppComponent,
     MenuComponent,
+    TopbarComponent,
     FooterComponent
   ],
   imports: [

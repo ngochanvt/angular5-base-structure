@@ -10,8 +10,7 @@ export const routes: Routes = [
 		children: [
 			{
 				path: '',
-        		redirectTo: '',
-        		pathMatch: 'full'
+        		component: DashboardGuessComponent
 			},
 			{ 
 				path: 'student', 
